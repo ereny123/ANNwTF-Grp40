@@ -1,7 +1,3 @@
-list1 = [x ** 2 for x in range(1,101)]
-print(list1)
+print([number ** 2 for number in range(0, 101)])
 
-
-
-list2 = [x ** 2 for x in range(1,101) if x % 2 == 0]
-print(list2)
+print([number ** 2 for number in range(0, 101, 2)])
