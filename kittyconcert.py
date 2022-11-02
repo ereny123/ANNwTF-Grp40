@@ -1,7 +1,7 @@
-from cat import cat
+from cat import Cat
 
-Hercules = cat("Hercules")
-Tim = cat("Tim")
+Hercules = Cat("Hercules")
+Tim = Cat("Tim")
 
 Hercules.greet("Time")
 Tim.greet("Hercules")
