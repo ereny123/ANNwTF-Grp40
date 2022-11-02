@@ -9,3 +9,15 @@ def square_list(n):
 
 for i in square_list(9):
     print("Meow " * i)
+    
+# Another way
+def meow_gen():
+    n = 1
+    while n < 6:
+        yield "Meow" * n
+        n += 1
+        
+result = meow_gen()
+
+for number, output in enumerate(result, start = 1):
+    print(number, output)
